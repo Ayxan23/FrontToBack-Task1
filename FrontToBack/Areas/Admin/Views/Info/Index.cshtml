@@ -1,0 +1,55 @@
+﻿@using FrontToBack.Models;
+@model List<Info>
+@{
+    ViewData["Title"] = "Info Page";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Sliders</h4>
+
+                    @if (ViewBag.Count == 3)
+                    {
+                        <a class="btn btn-primary disabled" asp-action="Create">Create</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-primary" asp-action="Create">Create</a>
+                    }
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Title</th>
+                                    <th>Descripton</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var infoItem in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <img src="~/assets/images/website-images/@infoItem.Image">
+                                        </td>
+                                        <td>@infoItem.Title</td>
+                                        <td>@infoItem.Description</td>
+                                        <td>
+                                            <a class="btn btn-success" asp-action="Read" asp-route-id="@infoItem.Id">Read</a>
+                                            <a class="btn btn-warning mx-1" asp-action="Update" asp-route-id="@infoItem.Id">Update</a>
+                                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@infoItem.Id">Delete</a>
+
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
