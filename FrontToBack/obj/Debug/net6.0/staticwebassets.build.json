@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4vnnKdKpLr1zrIZt4X+Jl/fHURFILt1beeI/DkGA7cU=",
+  "Hash": "XPd1JM9yJx4bt6PNMv2scsPBKnvQO8xhr/stIEUrQUg=",
   "Source": "FrontToBack",
   "BasePath": "_content/FrontToBack",
   "Mode": "Default",
@@ -4197,6 +4197,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\3.png"
+    },
+    {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\FrontToBack\\FrontToBack\\wwwroot\\assets\\images\\website-images\\32b67c76-5d89-4dab-904c-e78a72118f03-1-1-120x120.webp",
+      "SourceId": "FrontToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\FrontToBack\\FrontToBack\\wwwroot\\",
+      "BasePath": "_content/FrontToBack",
+      "RelativePath": "assets/images/website-images/32b67c76-5d89-4dab-904c-e78a72118f03-1-1-120x120.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\32b67c76-5d89-4dab-904c-e78a72118f03-1-1-120x120.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\FrontToBack\\FrontToBack\\wwwroot\\assets\\images\\website-images\\4506dcd5-d662-4897-91ca-2916ecbad598-1-3.png",
+      "SourceId": "FrontToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\FrontToBack\\FrontToBack\\wwwroot\\",
+      "BasePath": "_content/FrontToBack",
+      "RelativePath": "assets/images/website-images/4506dcd5-d662-4897-91ca-2916ecbad598-1-3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\4506dcd5-d662-4897-91ca-2916ecbad598-1-3.png"
     },
     {
       "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\FrontToBack\\FrontToBack\\wwwroot\\assets\\images\\website-images\\car.png",

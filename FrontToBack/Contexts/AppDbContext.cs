@@ -11,6 +11,7 @@ namespace FrontToBack.Contexts
         }
 
         public DbSet<Info> Infos { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
 
     }
 }

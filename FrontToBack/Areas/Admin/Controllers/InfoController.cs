@@ -1,8 +1,4 @@
-﻿using FrontToBack.Contexts;
-using FrontToBack.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-
+﻿
 namespace FrontToBack.Areas.Admin.Controllers
 {
     [Area("Admin")]
