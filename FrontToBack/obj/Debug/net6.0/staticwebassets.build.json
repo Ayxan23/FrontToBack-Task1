@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XPd1JM9yJx4bt6PNMv2scsPBKnvQO8xhr/stIEUrQUg=",
+  "Hash": "ZfW2rdnV9iC8VsDHYHnhPBlEk6slQtBIoj+zNIdXnHg=",
   "Source": "FrontToBack",
   "BasePath": "_content/FrontToBack",
   "Mode": "Default",
@@ -984,6 +984,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\images\\faces\\profilfotom.jpg",
+      "SourceId": "FrontToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\FrontToBack\\FrontToBack\\wwwroot\\",
+      "BasePath": "_content/FrontToBack",
+      "RelativePath": "assets/admin/images/faces/profilfotom.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\profilfotom.jpg"
     },
     {
       "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\images\\favicon.png",

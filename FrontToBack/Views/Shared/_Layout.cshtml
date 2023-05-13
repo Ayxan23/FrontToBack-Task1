@@ -126,7 +126,7 @@
                                             <ul class="dropdown-menu"
                                                 aria-labelledby="settingButton">
                                                 <li>
-                                                    <a class="dropdown-item" href="my-account.html">My account</a>
+                                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="login-register.html">Login | Register</a>
@@ -165,7 +165,7 @@
                                 <nav class="main-nav">
                                     <ul>
                                         <li class="drop-holder">
-                                            <a href="index.html">Home</a>
+                                            <a asp-action="Index" asp-controller="Home">Home</a>
                                             <ul class="drop-menu">
                                                 <li>
                                                     <a href="index.html">Home One</a>
@@ -176,7 +176,7 @@
                                             </ul>
                                         </li>
                                         <li class="megamenu-holder">
-                                            <a href="shop.html">Shop</a>
+                                            <a  asp-action="Index" asp-controller="Shop">Shop</a>
                                             <ul class="drop-menu megamenu">
                                                 <li>
                                                     <span class="title">Shop Layout</span>
@@ -228,7 +228,7 @@
                                                     <span class="title">Product Related</span>
                                                     <ul>
                                                         <li>
-                                                            <a href="my-account.html">My Account</a>
+                                                            <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a>
                                                         </li>
                                                         <li>
                                                             <a href="login-register.html">Login | Register</a>
@@ -361,7 +361,7 @@
                                                         <span class="title">Product Related</span>
                                                         <ul>
                                                             <li>
-                                                                <a href="my-account.html">My Account</a>
+                                                                <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a>
                                                             </li>
                                                             <li>
                                                                 <a href="login-register.html">Login | Register</a>
@@ -520,7 +520,7 @@
                                     <ul class="dropdown-menu dropdown-menu-end"
                                         aria-labelledby="settingButtonTwo">
                                         <li>
-                                            <a class="dropdown-item" href="my-account.html">My account</a>
+                                            <a class="dropdown-item" asp-area="Admin">My account</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="login-register.html">Login | Register</a>
@@ -654,8 +654,8 @@
                                                 </a>
                                                 <ul class="sub-menu">
                                                     <li>
-                                                        <a href="my-account.html">
-                                                            <span class="mm-text">My Account</span>
+                                                        <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+                                                            <span class="mm-text">Admin</span>
                                                         </a>
                                                     </li>
                                                     <li>

@@ -1,0 +1,21 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Read";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <div style="width:100px; height:auto; margin-bottom: 20px">
+                <img src="~/assets/images/website-images/@Model.Image" style="width:100%; height:auto" />
+            </div>
+            <h4> Name: @Model.Name</h4>
+            <h4> Price: @Model.Price</h4>
+            <h4> Raiting: @Model.Raiting</h4>
+            <h4> Category Name: @Model.Category.Name</h4>
+
+            <a class="btn btn-info" asp-action="Index">Go Back</a>
+        </div>
+    </div>
+</div>
+

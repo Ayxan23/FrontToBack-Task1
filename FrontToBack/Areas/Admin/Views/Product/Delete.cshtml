@@ -1,0 +1,26 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <div style="width:200px; height:auto">
+                <img src="~/assets/images/website-images/@Model.Image" style="max-width:100%; max-height:auto" />
+            </div>
+            <h4> Title: @Model.Name</h4>
+            <h4> Image: @Model.Category.Name</h4>
+            <h4> Description: @Model.Price</h4>
+            <h4> Description: @Model.Raiting</h4>
+
+            <div style="display:flex; gap: 10px">
+                <a class="btn btn-info" asp-action="Index">Go Back</a>
+                <form method="post">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
